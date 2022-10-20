@@ -1,4 +1,3 @@
-from lib2to3.pgen2.token import ISTERMINAL
 import math
 
 def istSchaltjahr(a):
@@ -20,7 +19,6 @@ def ninetheen(y):
                     d=28
             else:
                 d=31
-            print(i,j,d)
             for k in range(1,d+1):
                 if(u==7 and k==1):
                     sunns+=1
@@ -28,7 +26,5 @@ def ninetheen(y):
                     u=1
                 else:
                     u+=1
-                print(u)
     print(sunns)
-            
 ninetheen(2001)
